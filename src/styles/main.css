@@ -1,0 +1,16 @@
+/* Master Stylesheet for Stack & Automation */
+@import './variables.css';
+@import './layout.css';
+@import './components.css';
+@import './form.css';
+
+/* Subtle utility highlights */
+.font-medium {
+  font-weight: 500;
+}
+
+.text-gradient-subtle {
+  background: linear-gradient(180deg, #ffffff 30%, #a1a1aa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
